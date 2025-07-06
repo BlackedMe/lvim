@@ -1,11 +1,3 @@
--- compile file
-lvim.keys.normal_mode['<C-A-b>'] = ':!g++ -g % -o %:r <cr>'
--- compile and run
-lvim.keys.normal_mode['<C-A-n>'] = ':cd %:h | :!g++ -g % -o %:r <cr>| :!./%:r <cr>'
-
--- compile and run (stdin and stdout from file)
-lvim.keys.normal_mode['<C-A-m>'] = ':cd %:h | :!g++ -g % -o %:r <cr> | :!./%:r < ./input.txt > ./output.txt <cr>'
-
 -- left buffer
 lvim.keys.normal_mode['<C-Left>'] = ':bprev <cr>'
 -- right buffer
@@ -23,3 +15,6 @@ vim.keymap.set('n', '<A-BS>', function() require('dap').disconnect() end)
 
 vim.keymap.del("t", "<c-j>")
 vim.keymap.del("t", "<c-k>")
+
+-- code_runner configurations
+vim.keymap.set('n', '<C-A-n>', ':RunCode<CR>', { noremap = true, silent = false })
