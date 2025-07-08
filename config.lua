@@ -10,8 +10,6 @@
 --
 
 lvim.plugins = {
-  -- gotham
-  { 'whatyouhide/vim-gotham' },
   --tokyonight
   { 'folke/tokyonight.nvim' },
   --tokyodark
