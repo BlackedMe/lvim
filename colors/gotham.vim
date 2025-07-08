@@ -168,7 +168,7 @@ call s:Col('Conceal', 'cyan', s:background)
 call s:Col('Todo', 'magenta', s:background)
 
 " The column separating vertical splits.
-call s:Col('VertSplit', 'blue', s:linenr_background)
+call s:Col('WinSeparator', 'blue', s:linenr_background)
 call s:Col('StatusLineNC', 'blue', 'base2')
 
 " Matching parenthesis.
