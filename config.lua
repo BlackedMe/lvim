@@ -32,6 +32,8 @@ lvim.plugins = {
   { 'karb94/neoscroll.nvim' },
   --surround
   { 'tpope/vim-surround' },
+  --code_runner
+  { 'CRAG666/code_runner.nvim' },
   --vimtex
   {
     'lervag/vimtex',
