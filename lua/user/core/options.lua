@@ -24,6 +24,9 @@ lvim.builtin.alpha.dashboard.section.footer.val = require 'alpha.fortune' ()
 lvim.colorscheme = "neofusion"
 -- lvim.colorscheme = "nightfox"
 
+-- format on save
+lvim.format_on_save.enabled = false
+
 vim.opt.tabstop = 4 -- inserts 4 spaces for a tab
 vim.opt.clipboard = "unnamed,unnamedplus" -- allows neovim to access the system clipboard
 vim.opt.termguicolors = true -- sets term gui colors
