@@ -13,8 +13,8 @@ vim.keymap.set('n', '<A-c>', function() require('dap').clear_breakpoints() end)
 vim.keymap.set('n', '<C-A-d>', function() require('dapui').toggle() end)
 vim.keymap.set('n', '<A-BS>', function() require('dap').disconnect() end)
 
-vim.keymap.del("t", "<c-j>")
-vim.keymap.del("t", "<c-k>")
-
 -- code_runner configurations
 vim.keymap.set('n', '<C-A-n>', ':RunCode<CR>', { noremap = true, silent = false })
+
+vim.keymap.del("t", "<c-j>")
+vim.keymap.del("t", "<c-k>")
