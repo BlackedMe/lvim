@@ -10,29 +10,28 @@
 --
 
 lvim.plugins = {
-  --tokyonight
   { 'folke/tokyonight.nvim' },
-  --tokyodark
+
   { 'tiagovla/tokyodark.nvim' },
-  --everforest
+
   { 'sainnhe/everforest' },
-  --gruvbox
+
   { 'morhetz/gruvbox' },
-  --neofusion
+
   { 'diegoulloao/neofusion.nvim' },
-  --nightfox
+
   { 'EdenEast/nightfox.nvim' },
-  --nvim-dap
+
   { 'mfussenegger/nvim-dap' },
-  --lsp_signature
+
   { 'ray-x/lsp_signature.nvim' },
-  --smooth scrolling
+
   { 'karb94/neoscroll.nvim' },
-  --surround
+
   { 'tpope/vim-surround' },
-  --code_runner
+
   { 'CRAG666/code_runner.nvim' },
-  --vimtex
+
   {
     'lervag/vimtex',
     lazy = false,
