@@ -10,8 +10,6 @@
 --
 
 lvim.plugins = {
-  { 'folke/tokyonight.nvim' },
-
   { 'tiagovla/tokyodark.nvim' },
 
   { 'sainnhe/everforest' },
@@ -45,4 +43,4 @@ lvim.plugins = {
 
 require("user.core")
 require("user.lsp")
-require("user.utils")
+reload("user.utils")
