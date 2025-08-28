@@ -30,6 +30,8 @@ lvim.plugins = {
 
   { 'CRAG666/code_runner.nvim' },
 
+  { "danymat/neogen" },
+
   {
     'lervag/vimtex',
     lazy = false,

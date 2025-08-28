@@ -16,5 +16,8 @@ vim.keymap.set('n', '<A-BS>', function() require('dap').disconnect() end)
 -- code_runner configurations
 vim.keymap.set('n', '<C-A-n>', ':RunCode<CR>', { noremap = true, silent = false })
 
+-- neogen configurations
+vim.keymap.set('n', '<Leader>ng', function() require('neogen').generate() end)
+
 vim.keymap.del("t", "<c-j>")
 vim.keymap.del("t", "<c-k>")
